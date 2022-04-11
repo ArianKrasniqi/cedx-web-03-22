@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+#first-title {
+  color: red;
+  background-color: burlywood;
+}
+
+.first-class {
+  color: aqua;
+  background-color: lightcoral;
+}
+
+.second-paragraph {
+  border: 1px solid red;
+  color: blue;
+  background-color: lightseagreen;
+}
+
+/* .nested-span {
+  color: red;
+} */
+
+.nested-spans p span {
+  color: red;
+}
+
+.nested-spans p .blue-text {
+  color: blue;
+}
+
+.card {
+  /* vw - viewport width */
+  /* vh - viewport height */
+  width: 20vw; 
+  height: 20vh;
+  margin: 20px;
+  /* border: 1px solid red; */
+  /* border-radius: 20px; */
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+  /* border-style: dashed;
+  border-width: 2px;
+  border-color: coral; */
+
+  border: 2px dashed coral;
+  text-align: center;
+}
+
+.card.selected {
+  border-color: blue;
+  padding: 20px;
+}

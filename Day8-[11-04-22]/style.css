@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#main p.important span {
+  color: red;
+}
+/* #main p .important span {
+  color: red;
+} */
+
+.trying-rem {
+  border: 2px dashed green;
+  width: 6rem;
+  height: 8rem;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.trying-rem.selected {
+  border-color: blue;
+}
+
+.viewport-dimensions {
+  border: 2px dashed blue;
+  width: 50vw;
+  height: 50vh;
+}

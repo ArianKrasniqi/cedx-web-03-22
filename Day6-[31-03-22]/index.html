@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="https://www.google.com/" method="POST">
+    <div>
+      <label for="first-name">First Name:</label>
+      <input type="text" placeholder="John Doe" name="first-name" id="first-name" />
+    </div>
+    <div>
+      <label for="last-name">Last Name:</label>
+      <input type="text" placeholder="John Doe" name="last-name" id="last-name" />
+    </div>
+
+    <div>
+      <label for="email">Email addres</label>
+      <input type="email" placeholder="johndoe@gmail.com" name="email" id="email">
+    </div>
+
+    <div>
+      <label for="username">Username:</label>
+      <input type="text" placeholder="johndoe" name="username" id="username" />
+    </div>
+
+    <div>
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password">
+    </div>
+
+    <div>
+      <label for="message">Message</label>
+      <textarea name="message" id="message" cols="50" rows="5">a b c d s</textarea>
+    </div>
+
+    <div>
+      <label for="profession">Profession</label>
+      <select name="profession" id="profession">
+        <option value="0" disabled></option>
+        <option value="worker">You are a professional worker</option>
+        <option value="footballer" selected>You are a professional footballer</option>
+      </select>
+    </div>
+
+    <div>
+      <p>Your gender:</p>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" value="male" id="male">
+
+      <label for="female">Female</label>
+      <input type="radio" name="gender" value="female" id="female">
+    </div>
+
+    <div>
+      <p>Favorite cars</p>
+      <label for="audi">Audi</label>
+      <input type="checkbox" name="cars" id="audi" value="audi">
+
+      <label for="land-rover">Land Rover</label>
+      <input type="checkbox" name="cars" id="land-rover" value="land-rover">
+      
+      <label for="bmw">BMW</label>
+      <input type="checkbox" name="cars" id="bmw" value="bmw">
+    </div>
+
+    <input type="submit" value="Submit Btn">
+    <!-- <button type="submit">Submit here!</button> -->
+  </form>
+</body>
+</html>

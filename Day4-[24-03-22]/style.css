@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* body, p {
+  margin: 0;
+} */
+
+/* p {
+  margin: 0;
+} */
+
+div {
+  border: 2px solid red;
+  /* height: 200px; */
+  /* margin: 100px; */
+  /* margin-top: 70px;
+  margin-bottom: 100px; */
+
+  /* We use that to specify horizontal and vertical margins */
+  /* margin: 100px 0px;  */
+
+  /* margin-left: 50px;
+  margin-right: 90px; */
+
+  margin: 70px 90px 100px 0px;
+
+  padding: 25px;
+  padding: 35px 45px;
+  padding: 10px 20px 30px 40px;
+  /* padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 40px; */
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Palette+Mosaic&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap'); */
+
+@font-face {
+  font-family: RebotoThin;
+  src: url(./assets/Roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family: RebotoBlackItalic;
+  src: url(./assets/Roboto/Roboto-BlackItalic.ttf);
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+  font-family: 'Inspiration', cursive;
+}
+
+h2 {
+  font-family: 'Palette Mosaic', cursive;
+}
+
+h3 {
+  font-family: RebotoThin;
+}
+
+h4 {
+  font-family: RebotoBlackItalic;
+}
