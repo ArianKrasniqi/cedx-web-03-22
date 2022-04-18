@@ -1,0 +1,31 @@
+.boxes {
+  border: 2px solid black;
+  width: 600px;
+  height: 400px;
+  margin: 60px auto;
+}
+
+.box-1 {
+  background-color: lightgreen;
+  height: 200px;
+  width: 68%;
+  float: left;
+}
+
+.box-2 {
+  background-color: lightsalmon;
+  height: 180px;
+  width: 28%;
+  float: right;
+}
+
+.box-3 {
+  border: 2px dashed blue;
+  background-color: red;
+  width: 100%;
+  height: 200px;
+}
+
+.clr {
+  clear: both;
+}

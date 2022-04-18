@@ -1,0 +1,151 @@
+.container {
+  border: 1px solid red;
+  height: 500px;
+  width: 700px;
+  margin: auto;
+}
+
+.sidebar {
+  height: 260px;
+}
+
+.left-sidebar {
+  width: 70%;
+  background-color: lightgreen;
+  float: left;
+}
+
+.right-sidebar {
+  width: 30%;
+  background-color: lightskyblue;
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.footer {
+  background-color: mediumvioletred;
+  height: 200px;
+}
+
+.hide {
+  display: none;
+}
+
+.navigation li {
+  display: inline;
+}
+
+.navigation li.second {
+  display: block;
+}
+
+.navigation li.ib {
+  display: inline-block;
+  height: 80px;
+  background-color: lightsalmon;
+}
+
+p span.first {
+  color: red;
+  display: block;
+}
+
+p span.second {
+  color: green;
+  display: inline;
+  width: 120px;
+  height: 120px;
+}
+
+p span.third {
+  color: blue;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  background-color: lightsalmon;
+}
+
+.btn {
+  display: inline-block;
+  background-color: lightsalmon;
+  padding: 12px 20px;
+  margin: 20px;
+}
+
+.btn:link {
+  color: red;
+}
+
+.btn:visited {
+  color: green;
+}
+
+.btn:hover {
+  color: darkblue;
+  border-radius: 10px;
+  background-color: lightpink;
+  height: 100px;
+}
+
+.btn:active {
+  color: black;
+}
+
+.positions {
+  border: 1px solid red;
+  min-height: 100px;
+  width: 1000px;
+  position: relative;
+}
+
+.positions div {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.positions .box-1 {
+  position: static;
+  background-color: lightskyblue;
+}
+
+.positions .box-2 {
+  position: relative;
+  background-color: lightsalmon;
+  top: 10px;
+  left: 10px;
+}
+
+.positions .box-3 {
+  background-color: lightgreen;
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+}
+
+.positions .box-4-container {
+  border: 1px dashed red;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.positions .box-4 {
+  background-color: lightyellow;
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
+
+.box-5 {
+  background-color: maroon;
+  opacity: 0.7;
+  position: sticky;
+  top: 20px;
+  width: 98vw;
+  height: 100px;
+  text-align: center;
+}
