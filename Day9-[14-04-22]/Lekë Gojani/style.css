@@ -1,0 +1,142 @@
+.detyra{
+    border: 2px solid black;
+    width: 550px;
+    margin: auto;
+    height: 800px;
+}
+
+.nav {
+    border: 2px dashed black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 5px;
+    width: 505px;
+}
+
+.section {
+    border: 2px dashed black;
+    width: 400px;
+    height: 350px;
+    float: left;
+    margin-left: 20px;
+}
+.section2 {
+    border: 2px dashed black;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.section1 {
+    border: 2px dashed black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.aside {
+    border: 2px dashed black;
+    float: right;
+    margin-right: 20px;
+    
+}
+.article1{
+    border: 2px dashed black;
+    margin: 5px 5px 5px 5px;
+}
+
+.article3{
+    border: 2px dashed black;
+    margin: 5px 5px 5px 5px;
+}
+
+.clr {
+    clear: both;
+}
+
+.aside1 {
+    border: 2px dashed black;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.article2{
+    border: 2px dashed black;
+    margin: 5px 5px 5px 5px;
+}
+
+.article4 {
+    border: 2px dashed black;
+    margin: 5px 5px 5px 5px;
+}
+
+.foot {
+    width: 505px;
+    border: 2px dashed black;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.snap {
+    
+    border: 1px dashed black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 5px 5px 5px 5px;
+}
+
+.tf {
+    float: left;
+}
+
+.txt {
+    width: 150px;
+    margin: 20px 5px 10px 20px;
+    border: 2px dashed black;
+}
+
+.foot1 {
+    border: 2px dashed black;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+}
+
+.srv {
+    width: 150px;
+    border: 2px dashed black;
+    margin-top: 30px;
+    margin-left: 198px;
+    margin-right: 198px;
+    margin-bottom: 10px;
+}
+ 
+.links {
+    border: 2px dashed black;
+    margin-left: 198px;
+    margin-right: 198px;
+    width: 150px;
+    height: 150px;  
+    float: none;
+}
+
+#li1 {
+    margin-left: 35%;
+}
+
+#li2 {
+    margin-left: 35%;
+}
+
+#li3 {
+    margin-left: 35%;
+}
+
+#li4 {
+    margin-left: 35%;
+}
+
