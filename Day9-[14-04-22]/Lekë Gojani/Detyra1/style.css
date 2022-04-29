@@ -1,0 +1,81 @@
+.b {
+    margin: 0px;
+}
+
+.black {
+    height: 500px;
+    background-color: black;
+}
+.steve {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Raleway;
+    font-size: 28px;
+    
+}
+
+.nb {
+    color: white ;
+    display: flex;
+    font-size: 38px;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+.fa {
+    font-size: 78px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.stevejobs {
+    width: 700px;
+    height: 600px;
+    float: right;
+}
+
+.pr {
+    float: left;
+    width: 400px;
+    margin-left: 180px;
+    margin-top: 200px;
+    font-family: Raleway;
+    font-size: 32px;
+
+}
+
+.clr {
+    clear:both
+}
+
+#bg {
+    font-size: 52px;
+    margin-top: 0px;
+    font-family: Raleway;
+    margin-left: 350px;
+}
+
+.bg1 {
+height: 700px;
+color:white;
+background-color: black;
+}
+
+#pbg {
+    font-size: 25px;
+    width: 550px;
+    margin-left: 350px;
+    font-family: Raleway;
+}
+#apple {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
