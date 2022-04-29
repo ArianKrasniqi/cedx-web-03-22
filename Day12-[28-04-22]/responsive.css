@@ -1,0 +1,32 @@
+body {
+  background-color: lightgreen;
+}
+
+.test-mq {
+  border: 1px solid red;
+  width: 300px;
+  height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+	  background-color: lightcoral;
+  }
+
+  .test-mq {
+    width: 150px;
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+	  background-color: lightskyblue;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+	  background-color: lightslategrey;
+  }
+}

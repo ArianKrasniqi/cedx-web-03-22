@@ -1,0 +1,20 @@
+/* quote style */
+.quote {
+  border: 1px solid transparent;
+  height: 60vh;
+  position: relative;
+}
+
+.quote img {
+  height: 100%;
+  float: right;
+}
+
+.quote p {
+  font-size: 32px;
+  width: 320px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 100px;
+}
