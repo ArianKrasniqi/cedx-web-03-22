@@ -1,0 +1,31 @@
+.tooltip {
+  margin: 20px;
+  background-color: lightskyblue;
+  width: 120px;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+}
+
+.tooltip-content {
+  border: 2px solid red;
+  width: 200px;
+  min-height: 200px;
+  margin-top: 10px;
+  display: none;
+  position: absolute;
+  left: 0;
+}
+
+.tooltip:hover .tooltip-content {
+  display: block;
+}
+
+.siblings .inner + p {
+  color: red;
+}
+
+.siblings .inner ~ p {
+  color: red;
+}
