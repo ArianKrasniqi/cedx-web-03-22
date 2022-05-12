@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Shopify Sans Web Medium';
+}
+
+header {
+  height: 80px;
+  padding: 0px 80px;
+  display: flex;
+  align-items: center;
+  background-color: #fbf7ed;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: #42474c;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0px 10px;
+}
+
+.free-trial-button {
+  background-color: #008060;
+  padding: 12px 20px;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
