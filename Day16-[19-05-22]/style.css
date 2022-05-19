@@ -1,0 +1,41 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  /* animation-name: movingbox;
+  animation-duration: 1s;
+  animation-fill-mode: forwards; */
+  /* animation-delay: 2s; */
+  /* animation-timing-function: linear;
+  animation-iteration-count: infinite; */
+  animation: movingbox 3s forwards linear;
+}
+
+/* @keyframes movingbox {
+  from {
+    left: 10px;
+    top: 10px;
+  }
+  to {
+    left: 400px;
+    top: 400px;
+  }
+} */
+
+@keyframes movingbox {
+  0% {
+    left: 10px;
+    top: 10px;
+  }
+  70% {
+    left: 500px;
+    top: 500px;
+  }
+  100% {
+    left: 400px;
+    top: 400px;
+  }
+}

@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.sky {
+  height: 35vh;
+  width: 100%;
+  background-color: lightskyblue;
+  position: relative;
+}
+
+.sky img:first-child {
+  width: 200px;
+  position: absolute;
+  top: 20px;
+  animation: cloud 20s linear;
+  z-index: 2;
+}
+
+.sky img:last-child {
+  width: 150px;
+  position: absolute;
+  top: 100px;
+  margin-left: 30px;
+  animation: cloud 30s linear;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.grass {
+  height: 30vh;
+  background-color: lightgreen;
+}
+
+.route {
+  height: 30vh;
+  background-color: grey;
+  border-top: 5px solid lightgrey;
+  border-bottom: 5px solid lightgrey;
+  position: relative;
+}
+
+.lines {
+  border: 3px dashed white;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.car-1 {
+  width: 100px;
+  position: absolute;
+  top: 30px;
+  animation: move 3s forwards infinite linear, jump 2s infinite;
+}
+
+.car-2 {
+  width: 100px;
+  position: absolute;
+  top: 150px;
+  animation: move 4s forwards infinite linear reverse;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(-10vw);
+  }
+  to {
+    transform: translateX(100vw);
+  }
+}
+
+@keyframes jump {
+  0% {
+    top: 30px;
+  }
+  45% {
+    top: 30px;
+  }
+  50% {
+    top: 0px;
+  }
+  55% {
+    top: 30px;
+  }
+  100% {
+    top: 30px;
+  }
+}
+
+@keyframes cloud {
+  from {
+    transform: translateX(-10vw);
+  }
+  to {
+    transform: translateX(100vw);
+  }
+}
