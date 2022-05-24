@@ -1,0 +1,18 @@
+.dropdown-custom li a {
+  color: red !important;
+}
+
+.cards {
+  border: 1px solid red;
+  padding: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards div.card {
+  margin: 40px;
+}
+
+.custom-btn {
+  height: 60px;
+}

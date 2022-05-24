@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-color: lightskyblue;
+  height: 80px;
+}
+
+.ham-menu {
+  height: 40px;
+  width: 40px;
+  border: 1px solid red;
+  position: absolute;
+  right: 40px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  width: 60vw;
+  height: 100vh;
+  background-color: lightsalmon;
+  transform: translateX(-60vw);
+}
+
+.ham-menu:hover + div.sidebar {
+  animation: sidebarAnimation 2s forwards;
+}
+
+@keyframes sidebarAnimation {
+  0% {
+    transform: translateX(-60vw);
+  }
+  70% {
+    transform: translateX(0vw);
+  }
+  100% {
+    transform: translateX(-10vw);
+  }
+}
