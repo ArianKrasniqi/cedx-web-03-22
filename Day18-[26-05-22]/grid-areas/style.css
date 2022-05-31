@@ -1,0 +1,23 @@
+.content {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 80px auto 240px;
+  grid-template-areas: 
+  'header header header header'
+  'main main sidebar posts'
+  'footer footer footer footer';
+}
+
+.header { grid-area: header; }
+.main { grid-area: main; }
+.sidebar { grid-area: sidebar; }
+.posts { grid-area: posts; }
+.footer { grid-area: footer; }
+
+.header,
+.main,
+.sidebar,
+.posts,
+.footer {
+  border: 1px solid red;
+}
